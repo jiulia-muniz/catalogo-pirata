@@ -1,0 +1,10 @@
+.conteiner{
+    background-color: rgb(25,4,58);
+    padding: 10px;
+    display: flex;
+    color: aliceblue;
+    
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}

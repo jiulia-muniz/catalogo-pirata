@@ -1,0 +1,25 @@
+.conteiner{
+    display: flex;
+    background-color: #2f1353;
+    justify-content: center;
+    gap: 30px;
+    height: 20vh;
+    flex-direction: column;
+}
+
+.conteiner ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+.conteiner h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
