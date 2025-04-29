@@ -1,13 +1,14 @@
 import estilos from './BarraNavegacao.module.css';
+import { Link } from 'react-router-dom';
 //estrutura do componente
 export function BarraNavegacao(){
     //eu só posso retornar 1 componente
     return(
        <nav className={estilos.conteiner}>
             <ul>
-                <li>Home</li>
-                <li>Series</li>
-                <li>Perfil</li>
+                <Link to="/"><li>Home</li></Link>
+                <Link to='serie'><li>Favoritos</li></Link>
+                <Link to='perfil'><li>Perfil</li></Link>
             </ul>
        </nav>
     )

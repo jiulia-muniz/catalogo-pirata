@@ -7,13 +7,12 @@ import estilos from './Lista.module.css';
 const API_URL = 'https://api.themoviedb.org/3';
 const API_key = 'af26cce282aecf5c6cc39a264f29d0a7';
 
-export function Lista(){
+export function ListaFavoritos(){
     const[movies, setMovies] = useState([]);
     const [SelectedMovie, setSelectedMovie] = useState(null)
 
     useEffect(()=>{
-        axios.get(`${API_URL}/movie/now_playing?api_key=${API_key}&language=pt-BR&region=BR`)
-        // get(`${API_URL}/search/movie?api_key=${API_key}&query=marvel&language=pt-BR`)
+        axios.get(`${API_URL}/search/movie?api_key=${API_key}&query=marvel&language=pt-BR`)
         .then(response=>{
             console.log(response.data.results);
             setMovies(response.data.results);

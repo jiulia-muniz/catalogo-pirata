@@ -1,0 +1,23 @@
+.conteiner{
+    background-color: #2F1353;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.titulo h2{
+    background-color: rgba(99, 53, 151, 0.801);
+    width: 600px;
+    border-radius: 20px;
+    font-size: 80px;
+    color: rgb(176, 115, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}

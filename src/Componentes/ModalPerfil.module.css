@@ -1,0 +1,99 @@
+.conteiner-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    gap: 40px;
+}
+    img{
+        width: 310px;
+        margin: 20px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid rgb(150, 100, 184);
+        
+
+    }
+
+.img-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+      
+.conteudoGlobal{
+    background-color: rgb(52, 25, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.conteudoPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.opiniao{
+    color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    p{
+        position: relative;
+        left: 20px;
+    }
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(170, 156, 184);
+    width: 300px;
+    height: 100px;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 156, 184);
+    width: 300px;
+    border-radius: 10px;
+    height: 40px;
+    color: aliceblue;
+
+
+}
+
+.telefone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 156, 184);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 156, 184);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+
+}

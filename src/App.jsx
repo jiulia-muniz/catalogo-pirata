@@ -1,18 +1,16 @@
-import { Cabecalho } from "./Componentes/Cabecalho";
-import { BarraNavegacao } from "./Componentes/BarraNavegacao";
-import { Conteudo } from "./Componentes/Conteudo";
-import { Rodape } from "./Componentes/Rodape";
+import React from "react"
+import { BrowserRouter } from "react-router-dom"
+import { Rotas } from "./Rotas/Rotas"
+
+
 function App() {
   
 
   return (
-    <>
-      <Cabecalho />
-      <BarraNavegacao />
-      <Conteudo />
-      <Rodape />
-    </>
-  )
+    <BrowserRouter>
+      <Rotas/>
+    </BrowserRouter>
+  );
 }
 
 export default App

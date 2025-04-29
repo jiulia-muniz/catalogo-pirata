@@ -1,0 +1,48 @@
+/* Fundo da tela com blur e escurecimento */
+.modalback {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  /* Caixa da modal */
+  .modalConteiner {
+    background-color: rgba(86, 11, 156, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    position: relative;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Imagem */
+  .imgDetalhes {
+    width: 200px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  /* Botão "X" */
+  .modalConteiner button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

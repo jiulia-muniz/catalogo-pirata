@@ -6,11 +6,12 @@
     padding: 10px;
     height: 100px;
     font-size: 30px;
-    color: aliceblue;
     font-family: Arial, Helvetica, sans-serif
 }
 .conteiner h1{
+    display: flex;
+    margin-bottom: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
-    color: aliceblue;
+    font-size: 80px;
+    color: rgb(150, 97, 235);
 }
