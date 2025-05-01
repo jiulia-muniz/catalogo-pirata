@@ -6,6 +6,7 @@ import { Rodape } from "../Componentes/Rodape";
 export function Inicial(){
     return(
         <>
+        
         < BarraNavegacao/>
         < Cabecalho/>
         < Outlet/>

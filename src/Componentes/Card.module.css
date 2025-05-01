@@ -8,9 +8,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
     overflow:hidden;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: transform 0.03 ease;
     margin-left: 30px;
     background-color: #3b1769;
